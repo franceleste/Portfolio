@@ -1,0 +1,56 @@
+main {
+    letter-spacing: 2px;
+    color: rgb(5, 5, 69);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 5px 5px 5px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+legend {
+    color: rgb(5, 5, 69);
+    padding: 0 0 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+label {
+    margin: 0 0 10px 0;
+}
+textarea {
+    margin: 10px 0 10px 0;
+    background-color: rgb(238, 236, 236);
+    letter-spacing: 2px;
+    border: none;
+    width: 90%;
+}
+textarea::placeholder, input::placeholder {
+    color: rgb(5, 5, 69);
+    padding: 10px 0 0 10px;
+    font-size: 16px;
+    font-family: auto;
+    letter-spacing: 2px;
+}
+button {
+    width: 100%;
+    background-color: rgb(5, 5, 69);
+    color: white;
+    height: 40px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+input {
+    background-color: rgb(238, 236, 236);
+    border: none;
+    width: 90%;
+    padding: 10px;
+    letter-spacing: 2px;
+}

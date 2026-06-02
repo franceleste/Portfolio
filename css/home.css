@@ -1,0 +1,66 @@
+main {
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 1px;
+    justify-content: space-between;
+}
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: center;
+    padding-top: 135px;
+}
+.presentacion h1, h3 {
+    color: rgb(5, 5, 69);
+}
+.presentacion p {
+    text-align: center;
+    padding: 0 0 15px;
+    color: rgb(5, 5, 69);
+}
+.apps {
+    display: flex;
+}
+.apps svg {
+    padding: 0 10px 0 10px;
+    
+}
+.apps a {
+    text-decoration: none;
+    color: rgb(34, 69, 145);;
+}
+.imgprincipal {
+    display: flex;
+    
+}
+.imgprincipal img {
+    height: 100%;
+    opacity: 80%;
+}
+.contacta a {
+    text-decoration: none;
+    color: white;
+}
+.contacta {
+    background-color: rgb(34, 69, 145);
+    height: 45px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin: 0 0 45px 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.contacta:hover {
+    transition-duration: 100ms;
+    background-color: rgb(207, 221, 235);
+    border: rgb(34, 69, 145) 2px solid;
+}
+.contacta a:hover {
+    color: rgb(34, 69, 145);  
+}
+.apps a:hover {
+    transition: 100ms;
+    opacity: 0.7;
+}

@@ -1,0 +1,287 @@
+body {
+    letter-spacing: 1px;
+    color: rgb(5, 5, 69);
+}
+.habilidades {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.servicios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto 50px auto;
+    color: rgb(5, 5, 69);
+    width: 100%;
+}
+.servicio_general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+    width: 100%;
+}
+.servicio_general h2 {
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+.servicio_general p {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5rem 0 3rem 0;
+    letter-spacing: 2px;
+}
+.desarrollo_web {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 20rem;
+    width: 20rem;
+    align-items: center;
+    border-radius: 4px;
+    color: rgb(5, 5, 69);
+}
+.desarrollo_web h3 {
+    padding: 0 0 1rem 0;
+    letter-spacing: 2px;
+}
+.desarrollo_web svg {
+    padding: 2rem 0 1rem 0;
+}
+.desarrollo_web:hover {
+    background-color: rgb(5, 5, 69);
+    color: white;
+    transition: 250ms;
+}
+.calidad_usuario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 20rem;
+    width: 20rem;
+    align-items: center;
+    border-radius: 4px;
+    color: rgb(5, 5, 69);
+    margin: 0 0 0 5rem;
+}
+.calidad_usuario h3 {
+    padding: 0 0 0.3rem 0;
+    letter-spacing: 2px;
+}
+.calidad_usuario svg {
+    padding: 2rem 0 1rem 0;
+}
+.calidad_usuario p {
+    margin: 0 0 0 0;
+    width: 18rem;
+    text-align: center;
+}
+.calidad_usuario:hover {
+    background-color: rgb(5, 5, 69);
+    color: white;
+    transition: 250ms;
+}
+.analiticas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 20rem;
+    width: 20rem;
+    align-items: center;
+    border-radius: 4px;
+    color: rgb(5, 5, 69);
+    margin: 0 0 0 5rem;
+}
+.analiticas h3 {
+    padding: 0 0 0.3rem 0;
+    letter-spacing: 2px;
+}
+.analiticas svg {
+    padding: 2rem 0 1rem 0;
+}
+.analiticas p {
+    margin: 0 0 0 0;
+    width: 18rem;
+    text-align: center;
+}
+.analiticas:hover {
+    background-color: rgb(5, 5, 69);
+    color: white;
+    transition: 250ms;
+}
+.tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+.card_html {
+    background-color: rgb(5, 5, 69);
+    color: white;
+    height: 50px;
+    width: 60px;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: white 2px solid;
+}
+.card_css {
+    background-color: rgb(5, 5, 69);
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: white 2px solid;
+}
+.card_javascript {
+    background-color: rgb(5, 5, 69);
+    color: white;
+    height: 50px;
+    width: 115px;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: white 2px solid;
+}
+.card_react {
+    background-color: rgb(5, 5, 69);
+    color: white;
+    height: 50px;
+    width: 65px;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: white 2px solid;
+}
+.card_ux_ui {
+    background-color: rgb(5, 5, 69);
+    color: white;
+    height: 50px;
+    width: 60px;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: white 2px solid;
+}
+.card_git {
+    background-color: rgb(5, 5, 69);
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: white 2px solid;
+}
+.card_bd {
+    background-color: rgb(5, 5, 69);
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: white 2px solid;
+}
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img_portfolio img {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px rgb(182, 197, 211) solid;
+    border-radius: 6px;
+    opacity: 0.3;
+}
+.img_portfolio img:hover {
+    opacity: 1;
+    transition-duration: 150ms;
+}
+.portfolio p {
+    width: 100%;
+    max-width: 700px;
+    margin: 1px auto;
+    font-size: 18px;
+}
+h2 {
+    letter-spacing: 2px;
+    font-size: 36px;
+    text-align: center;
+}
+.img_portfolio {
+    position: relative;
+    margin-right: 400px;
+}
+.portfolio_info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 60px 10px 10px 300px;
+    text-align: justify;
+    background-color: white;
+    border-radius: 4px;
+    max-width: 650px;
+    max-height: 600px;
+    padding: 0 20px 20px 20px;
+}
+.portfolio_info h2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.portfolio_info h3 {
+    color: rgb(34, 69, 145);
+    font-size: 20px;
+}
+.portfolio_html {
+    background-color: rgb(5, 5, 69);
+    color: white;
+    height: 30px;
+    width: 65px;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin: 10px 5px 5px 5px;   
+}
+.portfolio_css {
+    background-color: rgb(5, 5, 69);
+    color: white;
+    height: 30px;
+    width: 50px;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin: 10px 5px 5px 5px;
+}
+.portfolio_info svg {
+    padding: 0 10px 0 10px;
+    
+}
+.portfolio_info a {
+    text-decoration: none;
+    color: rgb(34, 69, 145);
+}
+.portfolio_info a:hover {
+    transition: 100ms;
+    opacity: 0.7;
+}

@@ -1,0 +1,92 @@
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+}
+.foto_personal img {
+    width: 25rem;
+    margin: 7rem 7rem 7rem 8rem;
+}
+.informacion_personal {
+    justify-content: left;
+    width: 40rem;
+    text-align: justify;
+    margin: 0 15rem 0 0;
+}
+.informacion_personal h2 {
+    font-size: 30px;
+    color: rgb(5, 5, 69);
+}
+.informacion_personal p {
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    color: rgb(5, 5, 69);
+    line-height: 30px;
+}
+.tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card_html {
+    background-color: rgb(5, 5, 69);
+    color: white;
+    height: 50px;
+    width: 60px;
+    margin: 0 15px 0 0;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.card_css {
+    background-color: rgb(5, 5, 69);
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin: 0 15px 0 0;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.card_javascript {
+    background-color: rgb(5, 5, 69);
+    color: white;
+    height: 50px;
+    width: 115px;
+    margin: 0 15px 0 0;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.card_react {
+    background-color: rgb(5, 5, 69);
+    color: white;
+    height: 50px;
+    width: 65px;
+    margin: 0 15px 0 0;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.card_ux_ui {
+    background-color: rgb(5, 5, 69);
+    color: white;
+    height: 50px;
+    width: 60px;
+    margin: 0 15px 0 0;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.card_git {
+    background-color: rgb(5, 5, 69);
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin: 0 15px 0 0;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+}
