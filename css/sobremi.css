@@ -92,3 +92,32 @@ main {
     text-align: center;
     box-sizing: border-box;
 }
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .foto_personal img {
+        margin: 20px auto;
+        max-width: 250px;
+    }
+    .informacion_personal {
+        max-width: 100%;
+    }
+
+    .informacion_personal h2 {
+        text-align: center;
+    }
+
+    .informacion_personal p {
+        font-size: 18px;
+    }
+    .tags {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .tags div {
+        margin: 5px;
+    }
+}

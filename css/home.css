@@ -64,3 +64,23 @@ main {
     transition: 100ms;
     opacity: 0.7;
 }
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .presentacion {
+        padding: 40px 20px 0 20px;
+    }
+    .presentacion h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .imgprincipal img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+}

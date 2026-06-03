@@ -286,3 +286,37 @@ h2 {
     transition: 100ms;
     opacity: 0.7;
 }
+
+@media (max-width: 768px) {
+    .servicios {
+        flex-direction: column;
+        align-items: center;
+    }
+    .desarrollo_web, .calidad_usuario, .analiticas {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .calidad_usuario, .analiticas {
+        margin: 20px 0 0 0;
+    }
+    .portfolio {
+        flex-direction: column;
+        padding: 0 15px;
+    }
+    .img_portfolio {
+        margin: 0;
+        width: 100%;
+    }
+
+    .img_portfolio img {
+        opacity: 1;
+    }
+
+    .portfolio_info {
+        position: static;
+        margin: 20px 0 0 0;
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
