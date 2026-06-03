@@ -208,14 +208,13 @@ body {
     width: 100%;
     max-width: 800px;
     margin: 20px auto;
-    border: 2px rgb(182, 197, 211) solid;
-    border-radius: 6px;
-    opacity: 0.3;
+    opacity: 0.2;
 }
 .img_portfolio img:hover {
     opacity: 1;
     transition-duration: 150ms;
 }
+
 .portfolio p {
     width: 100%;
     max-width: 700px;
@@ -230,6 +229,8 @@ h2 {
 .img_portfolio {
     position: relative;
     margin-right: 400px;
+    border: 2px rgb(5, 5, 69) solid;
+    border-radius: 6px;
 }
 .portfolio_info {
     display: flex;

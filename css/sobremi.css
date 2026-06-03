@@ -6,14 +6,16 @@ main {
     letter-spacing: 1px;
 }
 .foto_personal img {
-    width: 25rem;
-    margin: 7rem 7rem 7rem 8rem;
+    width: 100%;
+    max-width: 25rem;
+    margin: 7rem 7rem 7rem 0;
 }
 .informacion_personal {
     justify-content: left;
-    width: 40rem;
+    width: 100%;
+    max-width: 40rem;
     text-align: justify;
-    margin: 0 15rem 0 0;
+    margin: 0 auto;
 }
 .informacion_personal h2 {
     font-size: 30px;
